@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+:root{
+    --main-bg-color:black;
+    --font1: 'Hind', sans-serif;
+    --font2: 'Permanent Marker', cursive;
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 100%;
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+.btn{
+    
+        padding: 9px 19px;
+        border: 2px solid black;
+        border-radius: 9px;
+        font-size: 13px;
+        margin: 0 13px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+}
+.form-input{
+    padding: 9px 94px;
+    text-align: inherit;
+    font-size: 13px;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 0 5px;
+    /* background-color: rgb(206, 247, 233); */
+
+}
